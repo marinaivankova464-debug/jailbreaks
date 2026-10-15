@@ -1,0 +1,101 @@
+{
+  "info": {
+    "id": "ses_ec553905dffdiYIqgJOAYe8nMZ",
+    "projectID": "a440710d3c10221e74cfad338e0c40eccfdb28ec",
+    "agent": "build",
+    "model": {
+      "id": "exo-free",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "outcome": "failed",
+    "time": {
+      "created": 1791985741740,
+      "updated": 1791985743287,
+      "idle": 1791985743290,
+      "viewed": 1791985743290
+    },
+    "permissions": [
+      {
+        "action": "browser",
+        "resource": "*",
+        "effect": "allow"
+      }
+    ],
+    "location": {
+      "directory": "C:\\Users\\Oreomilkshake\\Documents\\Проект по умолчанию"
+    }
+  },
+  "messages": [
+    {
+      "id": "msg_13aac6fa2001dxOQKEEKUTFTX8",
+      "metadata": {
+        "displayText": "\"C:\\Users\\Oreomilkshake\\Desktop\\AGENTS.md.txt\"",
+        "comments": [],
+        "attachments": [],
+        "agent": "build",
+        "model": {
+          "modelID": "exo-free",
+          "providerID": "opencode"
+        }
+      },
+      "time": {
+        "created": 1791985741781
+      },
+      "text": "\"C:\\Users\\Oreomilkshake\\Desktop\\AGENTS.md.txt\"",
+      "files": [],
+      "agents": [],
+      "type": "user"
+    },
+    {
+      "id": "msg_13aac6fe4001B7jeT41VQFaLnA",
+      "time": {
+        "created": 1791985741817,
+        "completed": 1791985743287
+      },
+      "type": "assistant",
+      "agent": "build",
+      "model": {
+        "id": "exo-free",
+        "providerID": "opencode",
+        "variant": "default"
+      },
+      "content": [],
+      "finish": "error",
+      "error": {
+        "type": "provider.invalid-request",
+        "message": "Model exo-free has been deprecated.",
+        "status": 410,
+        "response": {
+          "body": "{\"type\":\"error\",\"error\":{\"type\":\"ModelDeprecated\",\"message\":\"Model exo-free has been deprecated.\"},\"metadata\":{\"model\":\"exo-free\"}}"
+        }
+      }
+    },
+    {
+      "id": "msg_13aac75ba001VAep9C8JY3K1lT",
+      "time": {
+        "created": 1791985743290
+      },
+      "type": "idle",
+      "outcome": "failed",
+      "error": {
+        "type": "provider.invalid-request",
+        "message": "Model exo-free has been deprecated.",
+        "status": 410,
+        "response": {
+          "body": "{\"type\":\"error\",\"error\":{\"type\":\"ModelDeprecated\",\"message\":\"Model exo-free has been deprecated.\"},\"metadata\":{\"model\":\"exo-free\"}}"
+        }
+      }
+    }
+  ]
+}
